@@ -1,0 +1,19 @@
+name: meow
+channels:
+  - conda-forge
+dependencies:
+  - ipykernel
+  - ca-certificates
+  - certifi
+  - openssl
+  - kagglehub
+  - librosa
+  - numpy
+  - pandas
+  - seaborn
+  - scipy
+  - scikit-learn
+  - pip
+  - pip:
+    - standard-aifc
+    - standard-sunau
