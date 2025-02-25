@@ -2,12 +2,13 @@ name: meow
 channels:
   - conda-forge
 dependencies:
+  - kagglehub
   - ipykernel
   - ca-certificates
   - certifi
   - openssl
-  - kagglehub
   - librosa
+  - matplotlib
   - numpy
   - pandas
   - seaborn
